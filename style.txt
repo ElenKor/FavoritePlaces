@@ -1,0 +1,141 @@
+html {
+    background: rgba(1, 1, 1, 0.89);
+}
+
+.page {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+.url {
+    color: #a17e7e;
+}
+.urlF {
+    color: #111;
+}
+
+header.page_header {
+    background:  url("image/fon.jpeg") no-repeat;
+    color: #e8e8e3;
+    background-size: cover; /* Фон занимает всю доступную площадь */
+}
+.temp{
+    text-align: center;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 30vh;
+    text-transform: uppercase;
+    font-family: "Abril Fatface",sans-serif;
+}
+
+.page place {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.place-image {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.place-image img {
+    width: 250px;
+    height: 250px;
+}
+
+.place-title {
+    color: #ded7a6;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center
+}
+
+.text {
+    margin-top: 5px;
+    color: #ceceb5;
+    font-size: 15pt;
+    font-family:"Times New Roman";
+}
+
+/*для футера*/
+.info {
+    background: linear-gradient(#bb97c5, #ceceb5);
+    text-align: center;
+    font-family: "Abril Fatface",sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.control {
+    color: #ded7a6;
+    font-size: 15pt;
+    font-family:"Times New Roman";
+}
+
+@media (max-width: 767px)
+    /* стили для xs-устройств */{
+.page {
+    font-size: 16px;
+}
+    .control{
+        font-size: 28px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств */
+    .page {
+        font-size: 16px;
+    }
+    .control{
+        font-size: 28px;
+    }
+    .place-image img {
+        width: 230px;
+        height: 230px;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+    .page {
+        font-size: 16px;
+    }
+    .control{
+        font-size: 28px;
+    }
+    .place-image img {
+        width: 242px;
+        height: 242px;
+    }
+}
+@media (min-width: 1200px) {
+    /* стили для lg-устройств */
+    .page{
+        max-width: 1040px;
+    }
+    .control{
+        font-size: 20px;
+    }
+    .place-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+.weather{
+    font-family: 'Lexend', sans-serif;
+    color: rgba(17, 17, 17, 0.94);
+    background: linear-gradient(rgba(187, 151, 197, 0.91), rgba(245, 245, 215, 0.72));
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 0vh;
+    box-shadow:  8px 5px 8px 0px #ccadbd;
+}
+

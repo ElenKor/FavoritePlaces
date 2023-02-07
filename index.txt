@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Любимые места СПБ</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="page">
+    <header class="page_header">
+        <h1>Личная подборка любимых мест в Санкт-Петербурге</h1>
+    </header>
+    <div class="weather">
+        <div class="img-block"></div>
+        <div>
+            <h4> Погода в Санкт-Петербурге: </h4>
+            <p class="temp" id='temp'></p>
+            <p id='local-date'></p>
+            <p id='update-date'></p>
+        </div>
+    </div>
+    <div class="place">
+        <h2 class="place-title">
+            1. Новая Голландия
+        </h2>
+        <div class="place-image">
+            <img alt="Новая Голландия" src="image/NewGolland.jpeg">
+            <img alt="Новая Голландия" src="image/NewGolland2.jpeg">
+            <img alt="Новая Голландия" src="image/NewGolland3.jpeg">
+            <img alt="Новая Голландия" src="image/NewGolland1.jpeg">
+        </div>
+        <p class="text">
+            Это два искусственных острова в центре Питера, между рекой Мойкой, Адмиралтейским и Крюковым каналами.
+            <br>Новая Голландия является единственным из 42 островов города, созданный людьми.
+            Более 150 лет доступ на остров был закрыт, но сейчас он стал местом проведения выставок и мероприятий.
+            <br>Это популярная зона отдыха.
+            В солнечные дни здесь приятно полежать на травке.
+            В отличие от других парков, это не только разрешено, но и приветствуется. Зимой работает каток.
+        </p>
+        <p class="text">Ссылка: <a class="url" href="https://www.newhollandsp.ru/" target="_blank">Новая Голландия</a>
+        </p>
+    </div>
+    <div class="place">
+        <h2 class="place-title">
+            2. Оранжерея Таврического сада
+        </h2>
+        <div class="place-image">
+            <img alt="Оранжерея" src="image/image1.jpeg">
+            <img alt="Оранжерея" src="image/image2.jpeg">
+            <img alt="Оранжерея" src="image/image3.jpeg">
+            <img alt="Оранжерея" src="image/image4.jpeg">
+        </div>
+        <p class="text">
+            Оранжерея Таврического сада - царство лета, тропических цветов и величественных деревьев.
+            <br>
+            Оранжерея спроектирована английским мастером садоводства Уильямом Гульдом по личному распоряжению
+            императрицы Екатерины Великой.
+            <br>
+            Сегодня в оранжерее можно отдохнуть от городской суеты и своенравной погоды Петербурга.
+            <br>На втором этаже работает уютное кафе c видом на пространство оранжереи.
+            Здесь вы можете выпить кофе, перекусить десертами и сытными французскими пирогами. И ещё тут мило.
+        </p>
+        <p class="text">Ссылка: <a class="url" href="https://vk.com/orangeryspb" target="_blank">Оранжерея Таврического
+            сада</a></p>
+    </div>
+    <div class="place">
+        <h2 class="place-title">
+            3. Планетарий
+        </h2>
+        <div class="place-image">
+            <img alt="Планетарий" src="image/planet1.jpeg">
+            <img alt="Планетарий" src="image/planet2.jpeg">
+            <img alt="Планетарий" src="image/planet3.jpeg">
+            <img alt="Планетарий" src="image/planet4.jpeg">
+        </div>
+        <p class="text">
+            Самый большой в мире планетарий расположен именно в Петербурге.
+            <br>На территории планетария также расположены интерактивный зал и музей космоса.
+            В постоянной программа «Планетария №1» — несколько образовательных фильмов и детская программа.
+            На площадке регулярно проходят концерты джазовых и академических музыкантов, мультимедийные выставки.
+            К тому же в «Планетарии» насыщенная афиша лекций — о космосе, технологиях, искусстве и многом другом.
+        </p>
+        <p class="text">Ссылка: <a class="url" href="https://www.planetarium.one/?ysclid=la1bwgvgw4142783726"
+                                   target="_blank">Планетарий</a></p>
+    </div>
+    <div class="place">
+        <h2 class="place-title">
+            4. Анненкирхе
+        </h2>
+        <div class="place-image">
+            <img alt="Анненкирхе" src="image/ann1.jpeg">
+            <img alt="Анненкирхе" src="image/ann2.jpeg">
+            <img alt="Анненкирхе" src="image/ann3.jpeg">
+            <img alt="Анненкирхе" src="image/ann4.jpeg">
+        </div>
+        <p class="text">
+            Старейшая лютеранская церковь Петербурга открылась в 1779 году, основу прихода составили обрусевшие
+            иностранцы.
+            <br>После революции Анненкирхе стала кинотеатром, в 90-е — ночным клубом.
+            В 1998-м церковь превратилась в концертную площадку — рок-клуб «Спартак», с баром и игровыми автоматами.
+            <br>В 2002 году, вскоре после того, как здание вернули в распоряжение церкви, в нем случился пожар,
+            фактически уничтоживший Анненкирхе.
+            <br>Церковь святой Анны простояла заброшенной 6 лет, только в 2009-м началась её реставрация.
+            Церковь восстанавливают постепенно, внутри до сих пор обгоревшие стены.
+            <br>Но это не мешает Анненкирхе быть важным культурным центром, в котором проходят выставки, спектакли,
+            кинопоказы, лекции и, всё-таки, концерты, но уже не рокерские, а академические и джазовые — звучит орган,
+            выступают камерные оркестры, хоры и солисты.
+        </p>
+        <p class="text">Ссылка: <a class="url" href="https://annenkirche.com/?ysclid=la1bvnsd1338885326"
+                                   target="_blank">Анненкирхе</a></p>
+    </div>
+    <div class="place">
+        <h2 class="place-title">
+            5. Эрарта
+        </h2>
+        <div class="place-image">
+            <img alt="Эрарта" src="image/erarta1.jpeg">
+            <img alt="Эрарта" src="image/erarta2.jpeg">
+            <img alt="Эрарта" src="image/erarta3.jpeg">
+            <img alt="Эрарта" src="image/erarta4.jpeg">
+        </div>
+        <p class="text">
+            Эрарта — первый музей современного искусства в Санкт-Петербурге и самый крупный частный музей современного
+            искусства в России
+            <br>Название образовано из слов era и arta и означает «время искусства».
+            <br>Выставочном крыле ежегодно проходит 40 временных выставок живописи, графики, скульптуры, фотографий,
+            арт-объектов и т.д.
+            Помимо этого в музее Эрарта есть уникальные авторские проекты, кинозалы, детские программы,
+            интернет-магазин, кафе и ресторан Erarta.
+        </p>
+        <p class="text">Ссылка: <a class="url" href="https://www.erarta.com/?ysclid=la1bw3hx0230217413" target="_blank">Эрарта</a>
+        </p>
+
+    </div>
+    <div class="control">
+        <div id="root1"></div>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+        <script type="text/babel" class="control">
+            class ManagedComponent extends React.Component {
+                constructor(props){
+                    super(props);
+                    this.state = { places: [
+                            {id: 1, value: 'Оранжерея Таврического сада', checked: false},
+                            {id: 2, value: 'Новая Голландия', checked: false},
+                            {id: 3, value: 'Планетарий', checked: false},
+                            {id: 4, value: 'Аннекирхе', checked: false},
+                            {id: 5, value: 'Эрарта', checked: false},
+                            {id: 6, value: 'Нигде не был', checked: false},
+                        ]};
+                    this.handleChange = this.handleChange.bind(this);
+                    this.handleSubmit = this.handleSubmit.bind(this);
+                }
+                handleChange = (event) => {
+                    const id = parseInt(event.target.value);
+                    this.state.places.forEach((place, index, places) => {
+                        if (place.id === id) places[index].checked = event.target.checked;
+                        if (places[5].checked === true)
+                            for(let i=0;i<5;i++) {
+                                places[i].checked = false;
+                            }
+                    });
+                    this.setState({places: this.state.places});
+                }
+                handleSubmit = (event) => {
+                    console.log(this.state.places);
+                    let result=new Array();
+                    let i=0;
+                    this.state.places.forEach((place, index, places) => {
+                        if (places[index].checked === true) {
+                            result[i] = places[index].value;
+                            i++; }});
+                    if (i>0)
+                        alert('Вы выбрали: ' + result)
+                    else
+                        alert('Вы ничего не выбрали');
+                    event.preventDefault();
+                }
+                render() {
+                    return (
+                        <fieldset>
+                        <form onSubmit={this.handleSubmit}>
+                            <label>
+                                В каких местах из этого списка Вы уже бывали?
+                            </label>
+                            {this.state.places.map(place =>
+                                <label key={place.id}>
+                                    <p>
+                                        <input
+                                            type="checkbox"
+                                            name="places"
+                                            value={place.id}
+                                            checked={place.checked}
+                                            onChange={this.handleChange}
+                                        /> {place.value}
+                                    </p>
+                                </label>
+                            )}
+                            <input type="submit" value="Отправить" />
+                        </form>
+                        </fieldset>
+                    );
+                }
+            }
+            ReactDOM.render(<ManagedComponent/>, document.getElementById("root1"));
+        </script>
+        <br>
+        <fieldset>
+            <legend> Поделитесь Вашим любимым местом в Санкт-Петербурге.</legend>
+            <form action="http://localhost/inp/checkbox" method="post">
+                <p><b>Введите название:</b></p>
+                <p><textarea></textarea></p>
+                <p><input type="submit" value="Отправить"></p>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Какое место из описанных Вам понравилось больше всего?</legend>
+            <form action="http://localhost/inp/radio" method="post">
+                <p>
+                    <input checked name="place" type="radio" value="Оранжерея Таврического сада">Оранжерея Таврического
+                    сада
+                </p>
+                <p>
+                    <input checked name="place" type="radio" value="Новая Голландия"> Новая Голландия
+                </p>
+                <p>
+                    <input checked name="place" type="radio" value="Планетарий">Планетарий
+                </p>
+                <p>
+                    <input checked name="place" type="radio" value="Анненкирхе"> Анненкирхе
+                </p>
+                <p>
+                    <input checked name="place" type="radio" value="Эрарта"> Эрарта
+                </p>
+                <p>
+                    <input type="submit" value="Выбрать">
+                </p>
+            </form>
+        </fieldset>
+    </div>
+    <footer class="info">
+        <p>Подборка составлена <a class="urlF" href="https://t.me/el_korgacheva" target="_blank">Коргачевой Элиной</a>
+        </p>
+    </footer>
+</div>
+<script src="weather.js"> </script>
+</body>
+</html>
